@@ -1,36 +1,36 @@
 @font-face {
-    font-family: 'Roboto Light';
-    src: url('../fonts/Roboto-Light.eot');
-    src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Roboto-Light.woff') format('woff'),
-    url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-family: 'Geometria Light';
+    src: url('../fonts/Geometria-Light.eot');
+    src: url('../fonts/Geometria-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Geometria-Light.woff') format('woff'),
+    url('../fonts/Geometria-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     }
 @font-face {
-    font-family: 'Roboto Bold';
-    src: url('../fonts/Roboto-Bold.eot');
-    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Roboto-Bold.woff') format('woff'),
-    url('../fonts/Roboto-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-    }
-@font-face {
-    font-family: 'Roboto Thin';
-    src: url('../fonts/Roboto-Thin.eot');
-    src: url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Roboto-Thin.woff') format('woff'),
-    url('../fonts/Roboto-Thin.ttf') format('truetype');
+    font-family: 'Geometria Regular';
+    src: url('../fonts/Geometria.eot');
+    src: url('../fonts/Geometria.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Geometria.woff') format('woff'),
+    url('../fonts/Geometria.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     }
 @font-face {
-    font-family: 'Roboto Black';
-    src: url('../fonts/Roboto-Black.eot');
-    src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Roboto-Black.woff') format('woff'),
-    url('../fonts/Roboto-Black.ttf') format('truetype');
+    font-family: 'Geometria Medium';
+    src: url('../fonts/Geometria-Medium.eot');
+    src: url('../fonts/Geometria-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Geometria-Medium.woff') format('woff'),
+    url('../fonts/Geometria-Medium.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Geometria Bold';
+    src: url('../fonts/Geometria-Bold.eot');
+    src: url('../fonts/Geometria-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Geometria-Bold.woff') format('woff'),
+    url('../fonts/Geometria-Bold.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     }
