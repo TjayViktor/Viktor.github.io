@@ -1,0 +1,96 @@
+@media (max-width: 991px){
+    .promo {
+        .container {
+            max-width: 910px;
+        }
+        .header {
+            &__official {
+                font-size: 20px;
+                span {
+                    font-size: 22px;
+                }
+            }
+            &__phone {
+                font-size: 23px;
+            }
+            &__contacts {
+                button {
+                    width: 200px;
+                    height: 40px;
+                    font-size: 16px;
+                }
+            }
+        }
+        &__wrapper {
+            margin-top: 55px;
+            .promo__subheader {
+                display: block;
+                max-width: 750px;
+            }
+            .button_main {
+                width: 330px;
+                height: 61px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        min-height: 717px;
+        .container {
+            max-width: 618px;
+        }
+        .header {
+            font-size: 17px;
+            span {
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        .header {
+            padding: 0 5px;
+            &__logo {
+                display: none;
+            }
+            &__official {
+                font-size: 10px;
+                span {
+                    font-size: 9px;
+                }
+            }
+            &__contacts {
+                .header__phone {
+                    font-size: 17px;
+                    text-align: center;
+                }
+                button {
+                    width: 172px;
+                    height: 35px;
+                    font-size: 16px;
+                }
+            }
+        }
+        &__wrapper {
+            margin-top: 36px;
+            .promo__header {
+                font-size: 32px;
+                line-height: 36px;
+            }
+            .promo__icons {
+                margin-top: 38px;
+                width: 300px;
+            }
+            .button_main {
+                width: 292px;
+                height: 66px;
+                margin-top: 39px;
+            }
+        }
+    }
+}
