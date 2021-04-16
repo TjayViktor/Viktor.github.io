@@ -48,6 +48,25 @@
                 font-size: 17px;
             }
         }
+        &__wrapper {
+            .promo__subheader {
+                width: 550px;
+            }
+        }
+    }
+    .advantages {
+        .title {
+            font-size: 24px;
+        }
+        &__item {
+            max-width: 227px;
+            .advantages__subtitle {
+                font-size: 15px;
+            }
+            .advantages__descr {
+                font-size: 12px;
+            }
+        }
     }
 }
 
@@ -91,6 +110,33 @@
                 height: 66px;
                 margin-top: 39px;
             }
+            .promo__subheader {
+                width: 300px;
+            }
+        }
+    }
+    .advantages {
+        .title {
+            font-size: 21px;
+        }
+        &__wrapper {
+            margin-top: 36px;
+            display: block;
+        }
+        &__subtitle {
+            font-size: 12px;
+            margin-top: 20px;
+            padding: 0 2px;
+        }
+        &__item {
+            display: flex;
+            align-items: center;
+            max-width: 300px;
+            flex-direction: row;
+        }
+        &__descr {
+            font-size: 11px;
+            padding: 0 15px;
         }
     }
 }
