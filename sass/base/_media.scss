@@ -68,6 +68,19 @@
             }
         }
     }
+    .consultation {
+        .title {
+            font-size: 24px;
+        }
+        .feed-form {
+            input {
+                height: 35px;
+            }
+            p {
+                font-size: 17px;
+            }
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -137,6 +150,26 @@
         &__descr {
             font-size: 11px;
             padding: 0 15px;
+        }
+    }
+    .consultation {
+        .title {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+        .feed-form {
+            input {
+                height: 35px;
+            }
+            p {
+                font-size: 14px;
+            }
+            .button {
+                height: 47px;
+                font-size: 18px;
+            }
         }
     }
 }
