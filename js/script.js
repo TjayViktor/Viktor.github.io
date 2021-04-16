@@ -2,7 +2,6 @@ $(document).ready(function(){
     $('.carousel__inner').slick({
         infinite: true,
         speed: 1200,
-        centerMode: true,
         adaptiveHeight: true,
         autoplay: true,
         autoplaySpeed: 4000,
@@ -12,7 +11,7 @@ $(document).ready(function(){
             {
                 breakpoint: 992,
                 settings: {
-                    dots: true,
+                    dots: false,
                     arrows: false
                 }
             }
