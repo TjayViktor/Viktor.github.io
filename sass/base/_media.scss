@@ -190,5 +190,21 @@
             }
         }
     }
+    .feed {
+        &__item {
+            display: block;
+        }
+        &__img {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: 100%;
+        }
+        &__text {
+            margin-left: 15px;
+            padding-right: 10px;
+            text-align: center;
+        }
+    }
     
 }
