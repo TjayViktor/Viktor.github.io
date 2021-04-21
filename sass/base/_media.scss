@@ -206,5 +206,18 @@
             text-align: center;
         }
     }
+    .footer {
+        &__info {
+            width: 85%;
+            height: 180px;
+            padding: 10px 10px;
+        }
+        &__addr {
+            margin-bottom: 15px;
+        }
+        &__phone {
+            margin-bottom: 20px;
+        }
+    }
     
 }
