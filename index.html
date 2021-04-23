@@ -22,7 +22,7 @@
                 </div>
                 <div class="header__contacts">
                     <a href="tel:+79532631823" class="header__phone">+7 (953) 263-18-23</a>
-                    <button class="button">Заказать звонок</button>
+                    <button data-modal="consultation" class="button">Заказать звонок</button>
                 </div>
             </header>
 
@@ -45,10 +45,10 @@
                     </div>
                 </div>
 
-                <button class="button button_main">Заказать консультацию</button>
+                <button data-modal="consultation"  class="button button_main">Заказать консультацию</button>
                 <div class="promo__link">
                     или
-                    <a href="#">Перейти к информации</a>
+                    <a href="#carousel">Перейти к информации</a>
                 </div>
             </div>
             
@@ -109,8 +109,11 @@
         </div>
     </section>
 
-    <section class="carousel">
+    <section class="carousel" id="carousel">
         <div class="container">
+            <div class="carousel__descr">
+                Здравствуйте, уважаемые посетители моего сайта-автобиографии. Меня зовут, Митькин Виктор Иванович, мне 28 лет, проживаю в городе Архангельске. Данный город расположен на севере России и имеет самую большую область. С самого детства меня привлекали компьютеры и программы, но к сожалению жизнь меня постоянно направляла на все разные другие направления. Я не жалею о том где я был, на кого учился, чем занимался и с кем был знаком. Это все прошлое, дало мне огромный опыт, который я могу применять в своём настоящем. На данном этапе жизни я занимаюсь версткой сайтов, их редактированием, адаптацией, копирайтингом и может чем то еще. Ниже представлена для развелкательного характера, моя прошлая жизнь, может Вам будет интересна. <hr> Имею опыт в HTML, CSS, SCSS, SASS, Boostrap, Git, Github, JS и многое другое. <hr> Я Вас всегда жду и готов помочь в любых Ваших вопросах, касающихся вёрстки сайтов и их кодировки.
+            </div>
             <div class="carousel__inner">
                 <div>
                     <img src="img/slide1.jpg" alt="slide 1">
@@ -431,6 +434,36 @@
             </div>
         </div>
     </footer>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Просто заполните форму заявки</div>
+            <div class="modal__descr">В свободное для Вас и меня время я с Вами свяжусь</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="email" required placeholder="Ваш E-mail" type="email">
+                <p>В какое время лучше звонить?</p>
+                <input required name="time" min="09:00" max="21:00" type="time">
+
+                <button class="button button_submit">Заказать консультацию</button>
+                <input type="reset">
+            </form>
+        </div>
+
+        <div class="modal" id="photo">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Моя жизнь в картинках</div>
+            <div class="modal__descr">В свободное для Вас и меня время я с Вами свяжусь</div>
+        </div>
+
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за Вашу заявку!</div>
+            <div class="modal__descr">Я свяжусь с Вами в ближайшее время!</div>
+        </div>
+    </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
