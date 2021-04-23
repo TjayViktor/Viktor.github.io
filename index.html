@@ -96,12 +96,10 @@
             <div class="consultation__descr">
                 Вам необходимо лишь заполнить форму заявки <br> и в свободное время я с Вами свяжусь.
             </div>
-            <form class="feed-form" action="#">
-                <input name="name" required placeholder="Ваше имя" type="text">
-                <input name="phone" required placeholder="Ваш телефон" type="number">
-                <input name="email" required placeholder="Ваш E-mail" type="email">
-                <p>В какое время лучше звонить?</p>
-                <input required name="time" min="09:00" max="21:00" type="time">
+            <form id="consultation-form" class="feed-form" action="#">
+                <input name="name" placeholder="Ваше имя" type="text">
+                <input name="phone" placeholder="Ваш телефон" type="number">
+                <input name="email" placeholder="Ваш E-mail" type="email">
 
                 <button class="button button_submit">Заказать консультацию</button>
                 <input type="reset">
@@ -441,11 +439,9 @@
             <div class="modal__subtitle">Просто заполните форму заявки</div>
             <div class="modal__descr">В свободное для Вас и меня время я с Вами свяжусь</div>
             <form class="feed-form feed-form_mt25" action="#">
-                <input name="name" required placeholder="Ваше имя" type="text">
-                <input name="phone" required placeholder="Ваш телефон" type="number">
-                <input name="email" required placeholder="Ваш E-mail" type="email">
-                <p>В какое время лучше звонить?</p>
-                <input required name="time" min="09:00" max="21:00" type="time">
+                <input name="name" placeholder="Ваше имя" type="text">
+                <input name="phone" placeholder="Ваш телефон" type="number">
+                <input name="email" placeholder="Ваш E-mail" type="email">
 
                 <button class="button button_submit">Заказать консультацию</button>
                 <input type="reset">
@@ -468,6 +464,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
