@@ -26,4 +26,10 @@
 		font-weight: 300;
 		text-align: center;
 	}
+	&__icon {
+		animation: heartbeat 2s ease infinite;
+		&:hover {
+			animation-play-state: paused;
+		}
+	}
 }
